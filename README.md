@@ -5,6 +5,8 @@
 
 # 怎么用?
 
+## bash
+
 ```bash
 git clone https://www.github.com/alittleshark-dev/Covn-Asm.git
 cd Covn-Asm
@@ -13,7 +15,10 @@ ld cnn.o -o cnn
 gdb cnn
 ```
 
+## gdb
+
 ```gdb
+gdb cnn
 b window
 run
 c
